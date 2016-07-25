@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link rel="stylesheet"type="text/css" href="styling.css">
+	<title>Varun Rao's WebPage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+
+<header class="mainheader">
+	<nav>
+		<ul>
+		<div><li><a href="#home">Home </a> </li></div>
+		<div><li><a href="#work">Work</a></li></div>
+		<div><li><a href="#about">About Me </a></li></div>
+		<div><li><a href="#contact"> Contact </a></li></div>
+		<ul>
+	</nav>
+</header>
+
+<div class="Page1">
+	<a id="home"> </a>
+
+	<div>
+		<h2> Welcome to Varun's Universe <br> A place of his own, where software meets hardware </h2>
+	</div>
+</div>
+	
+<div class="Page2">
+	<a id="about"></a>
+	<h1>About Varun</h1>
+	<div class="aboutme">
+		<div><header><h2> Varun Rao is a Student, a Full Stack Developer, and a Musician  </h2></header></div>
+		
+		<h3>Varun desires to one day become a Software Engineer who specializes in the medical industry. 
+		<br><p class="underline">Why The Medical Industry?</p></h3>
+
+		<p>
+		Varun has logged over 200 hours at New York Hospital Queens, has interned for Coeo' Labs a startup which is producing a medical device to reduce Ventilator Associated Pnuemonia and is currently doing research at Stony Brook University creating a device that can measure muscle movement in patients who have recently undergone surgery.</p>
+
+		<h3><p class="underline">Current Skills:</p></h3><p> He is currently skilled in C, C++, Java, HTML, and PHP and is able to deliver mobile-responsive web applications. His upcoming goals are to build his web development skills by deploying more projects involving WordPress, PHP, SQL, and jQuery. His future goals are to then build an app in either IOS or Android.</p>
+		</h3>
+
+		<h3><p class="underline">Up Close and Personal </p> </h3> 
+		<p>
+		Varun currently attends Stony Brook University where he is majoring in Computer Engineering and Applied Mathematics and Statistics. On his spare time when Varun is not learning new programming skills he loves playing music, hiking different mountain ranges and travelling. Varun has learned Tabla, a Hindustani Classical Drum, for 8 years and has performed in various venues across Long Island and New York City. Varun has travelled to the India, Dubai, Bahamas, Italy, Mexico, and Puerto Rico and looks to continue to travel across the world.
+		</p>
+	</div>
+	<img src="images/mainpic.png">
+	
+		<a href="resume.html" class="button" target="_blank">View My Resume</a>
+
+</div>
+
+<div class="Page3">
+	<a id="work"> </a>
+	<header><h1>Projects</h1></header>
+	<div class="Projects"><tr>
+		<div class="image-container-1">
+			<img src="images/metaldetector.jpg"></a>
+			<h2><strong>Metal Detector</strong></h2>
+			<h3>Metal Detector designed and soldered <br>onto breadboard using an Arduino Uno</h3>
+			<a href="metaldetector.html" class="button">Learn More</a>
+		</div>	
+
+		<div class="image-container-2">
+			<img src="images/irsensor.png"></a>
+			<h2><strong>Infrared Sensor</strong></h2>
+			<h3>Infrared Sensor built using an IR led and <br> a PhotoResistor, soldered</h3>	
+			<a href="irsensor.html" class="button">Learn More</a>
+		</div>
+
+		<div class="image-container-3">
+			<img src="images/overheat.jpg"></a>
+			<h2><strong> OverHeat Detector </strong> </h2>
+			<h3> OverHeat Detector which was able to sense <br> a drastic change in temperature and release <br> a sound through a piezo buzzer	</h3>
+			<a href="#" class="button">Learn More </a>
+		</div> </tr>	
+	</div>	
+</div>	
+
+
+<div class="Page4">
+	<header>
+			<a id="contact"></a>
+		<h1> Interested in Contacting Me? Here are Some Ways..</h1>
+	</header>
+
+			<div class="social-media-plugins">
+				<div>
+				<a href="https://www.facebook.com/Vro0m" target="_blank"> <img class="fb" src="images/facebook.png"></a> <p> Facebook </p>
+				</div>
+
+				<div>
+				<a href="https://www.instagram.com/vi_ral/" target="_blank"> <img class="ig" src= "images/instagram.png"> </a> <p> Instagram </p> 
+				</div>
+
+				<div>
+				<a href="https://github.com/ViRaL95" target="_blank"> <img class="gh" src="images/git.png"></a> <p> GitHub </p>
+				</div>
+			</div>
+
+			<div class="contact-me">
+				<div>
+				<img src="images/house.png"><p>Hollis Hills, NY</p>
+				</div>
+
+				<div>
+				<img src="images/phone.png"><p>347-421-9281</p>
+				</div>
+
+				<div>
+				<img src="images/university.png"><p>Stony Brook University </p>
+				</div>
+			</div>
+
+			<div class="email-me">
+				<div>
+					<a href="mailto:Varun.Rao@stonybrook.edu"><img src="images/email.png"></a><p>Varun.Rao@stonybrook.edu</p>
+				</div>
+			</div>	
+</div>	
+<script src="js/jquery-3.0.0.min-2.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+	<footer class="trademark">
+			<p> &copy Vi_Ral | HTML 5 </p>
+	</footer>
+
+</html>
