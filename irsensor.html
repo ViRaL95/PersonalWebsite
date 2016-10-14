@@ -3,10 +3,10 @@
 <header>
 	<nav>
 		<ul>
-		<li><a href="homepage.html#home">Home </a> </li>
-		<li class="active"><a href="homepage.html#work">Work</a></li>
-		<li><a href="homepage.html#about">About Me </a></li>
-		<li><a href="homepage.html#contact"> Contact </a></li>
+		<li><a href="home.html#home">Home </a> </li>
+		<li class="active"><a href="home.html#work">Work</a></li>
+		<li><a href="home.html#about">About Me </a></li>
+		<li><a href="home.html#contact"> Contact </a></li>
 		<ul>
 	</nav>
 </header>	
@@ -18,82 +18,91 @@
 </head>
 
 <body class="body3">
-<div class="total-content">
+	<div class="total-content">
 
-	<div class="right-content">
-		<article class="Infrared-Sensor-Article">
-			<header><h2>InfraRed Sensor</h2></header>
+		<div class="left-content">
+			<article class="Infrared-Sensor-Article">
+				<header>
+					<h2>InfraRed Sensor</h2>
+				</header>
 
-			<footer><h3>A circuit which can sense infrared light</h3></footer>
-			<content>	
-				I made this circuit to learn and understand how sensors work for an Internship at Coeo' Labs, a startup at the time which created a medical device that reduced Ventilator Associated Pneumonia. The point of this project was also to understand how sensors were able to sense when there was liquid flowing through a tube or not, a common occurence in the medical device field. Rather than using the commonly used method of Indirect Incidence I've used the Direct Incidence method where and IR Led and a PhotoResistor are kept directly next to one another.	When an object is placed in front of the IR led and PhotoDiode the InfraRed Light released by the IR Led is reflected by the object and absorbed by the PhotoDiode. When the infrared light falls on the PhotoDiode the voltage across it drops and the voltage aross the non-inverting input of the LM358 increases. This will turn the OpAmp On at the output and light up the LED. The positive power supply of the LM358 should be connected to 5V and the negative power supply should be connected to ground. Instead of using a Red LED at the output I measured the voltage at the output using a digital multimeter and saw the changes as I placed objects in front of the sensor	
-				<div>
-					<a href="images/IRsensorSchematic.png" target="blank"><img src="images/IRsensorSchematic.png"></a>
-				</div> 
-				<br>The schematic for the infrared sensor can be seen above
-			</content>
-		</article>	
-	</div>
+				<footer>
+					<h3>A circuit which can sense infrared light</h3>
+				</footer>
 
-	<div class="left-content">
-	<aside>
-		<article class="Infrared-Sensor-Article">
-			<content>
-				 
-				<a href="images/irsensor.png" target="_blank"><img src="images/irsensor.png"></a>
+				<content>	
+					<div>
+						<a href="images/IRsensorSchematic.png" target="blank"><img src="images/IRsensorSchematic.png"></a>
+					</div> 
 
-				<table>
-					<tr>
-						<th> Parts List </th>
-					</tr>
-					
-					<tr>
-						<td>LM358</td>
-					</tr>
+					<div>
+					I made this circuit to learn and understand how sensors work for an Internship at Coeo' Labs, a startup at the time which created a medical device that reduced Ventilator Associated Pneumonia. The point of this project was also to understand how sensors were able to sense when there was liquid flowing through a tube or not, a common occurence in the medical device field. Rather than using the commonly used method of Indirect Incidence I've used the Direct Incidence method where and IR Led and a PhotoResistor are kept directly next to one another.	When an object is placed in front of the IR led and PhotoDiode the InfraRed Light released by the IR Led is reflected by the object and absorbed by the PhotoDiode. When the infrared light falls on the PhotoDiode the voltage across it drops and the voltage aross the non-inverting input of the LM358 increases. This will turn the OpAmp On at the output and light up the LED. The positive power supply of the LM358 should be connected to 5V and the negative power supply should be connected to ground. Instead of using a Red LED at the output I measured the voltage at the output using a digital multimeter and saw the changes as I placed objects in front of the sensor	
+					</div>
 
-					<tr>
-						<td>IR led </td>
-					</tr>
+					<br>The schematic for the infrared sensor can be seen above
 
-					<tr>
-						<td>Photodiode</td>
-					</tr>	
+				</content>
 
-					<tr>
-						<td> 100K Ohm Resistor </td>
-					</tr>
+			</article>	
+		</div>
 
-					<tr>
-						<td>10k Ohm Resistor</td>
-					</tr>	
+		<div class="right-content">
+			<article class="Infrared-Sensor-Article">
+				<content>
+					 
+					<a href="images/irsensor.png" target="_blank"><img src="images/irsensor.png"></a>
 
-					<tr>
-						<td>330 Ohm Resistor</td>
-					</tr>
+					<table>
+						<tr>
+							<th> Parts List </th>
+						</tr>
+						
+						<tr>
+							<td>LM358</td>
+						</tr>
 
-					<tr>
-						<td>10K Ohm Potentiometer</td>
-					</tr>	
-				</table>
+						<tr>
+							<td>IR led </td>
+						</tr>
 
-			</content>
+						<tr>
+							<td>Photodiode</td>
+						</tr>	
 
-		</article>
-	</aside>
-	</div>
+						<tr>
+							<td> 100K Ohm Resistor </td>
+						</tr>
 
-	<div class="description">
-		<article class="Infrared-Sensor-Article">
-			
-			<content>
-				<strong>Timeline:</strong> Summer 2015
-				<hr>
-			</content>
+						<tr>
+							<td>10k Ohm Resistor</td>
+						</tr>	
 
-		</article>	
+						<tr>
+							<td>330 Ohm Resistor</td>
+						</tr>
 
-	</div>
-</div>	
+						<tr>
+							<td>10K Ohm Potentiometer</td>
+						</tr>	
+					</table>
+
+				</content>
+
+			</article>
+		</div>
+
+		<div class="description">
+			<article class="Infrared-Sensor-Article">
+				
+				<content>
+					<strong>Timeline:</strong> Summer 2015
+					<hr>
+				</content>
+
+			</article>	
+
+		</div>
+	</div>	
 
 
 
